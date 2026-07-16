@@ -1,0 +1,9 @@
+SELECT
+	id,
+	name,
+	price,
+	is_active
+FROM
+	products
+WHERE
+	is_active;
