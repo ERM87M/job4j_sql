@@ -1,1 +1,6 @@
-SELECT id AS user_id, name AS user_name, email AS user_email FROM users;
+SELECT
+	id AS user_id,
+	name AS user_name,
+	email AS user_email
+FROM
+	users;

@@ -1,1 +1,5 @@
-SELECT name, email FROM users;
+SELECT
+	name,
+	email
+FROM
+	users;

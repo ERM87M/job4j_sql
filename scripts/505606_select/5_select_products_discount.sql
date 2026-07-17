@@ -1,1 +1,7 @@
-SELECT p.id, p.name, p.price, p.price * 0.9 AS discounted_price FROM products AS p;
+SELECT
+	p.id,
+	p.name,
+	p.price,
+	p.price * 0.9 AS discounted_price
+FROM
+	products AS p;

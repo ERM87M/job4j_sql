@@ -1,1 +1,8 @@
-SELECT oi.id, oi.order_id, oi.product_id, oi.quantity, oi.unit_price, oi.quantity * oi.unit_price AS line_total FROM order_items oi;
+SELECT
+    oi.id,
+    oi.order_id,
+    oi.product_id,
+    oi.quantity,
+    oi.unit_price,
+    oi.quantity * oi.unit_price AS line_total
+FROM order_items oi;
